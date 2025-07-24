@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35919.96 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElegenAI.API.Captions", "ElegenAI.API.Captions\ElegenAI.API.Captions.csproj", "{3D0301A4-7764-42EB-8D65-7E094851E5E8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D0301A4-7764-42EB-8D65-7E094851E5E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D0301A4-7764-42EB-8D65-7E094851E5E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D0301A4-7764-42EB-8D65-7E094851E5E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D0301A4-7764-42EB-8D65-7E094851E5E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {90715E5E-0484-4D28-B5DA-802E4056DCFE}
+	EndGlobalSection
+EndGlobal
