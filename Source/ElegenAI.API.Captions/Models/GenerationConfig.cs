@@ -9,7 +9,7 @@ public class GenerationConfig
     [JsonPropertyName("maxOutputTokens")] public int MaxOutputTokens { get; set; } = 500;
 
     [JsonPropertyName("temperature")] public float Temperature { get; set; } = 1.0F;
-    [JsonPropertyName("topP")] public float TopP { get; set; } = 1.50F;
+    [JsonPropertyName("topP")] public float TopP { get; set; } = 0.95F; // top_p must be in the range [0.0, 1.0]
     [JsonPropertyName("topK")] public float TopK { get; set; } = 10F;
     /// <summary>
     /// Supported mimetypes:

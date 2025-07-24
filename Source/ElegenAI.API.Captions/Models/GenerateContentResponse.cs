@@ -37,14 +37,14 @@ public sealed class ContentPart
     [JsonPropertyName("text")]
     public string? Text { get; set; }
 
-    [JsonPropertyName("fileData")]
-    public FileData? FileData { get; set; }
+    [JsonPropertyName("inlineData")]
+    public FileData? InlineData { get; set; }
 }
 
 public sealed class FileData
 {
-    [JsonPropertyName("fileUri")]
-    public string FileUri { get; set; } = string.Empty;
+    [JsonPropertyName("data")]
+    public string Data { get; set; } = string.Empty;
 
     [JsonPropertyName("mimeType")]
     public string MimeType { get; set; } = string.Empty;

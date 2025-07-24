@@ -49,14 +49,6 @@ If multiple captions are requested, return them as a numbered list.
                     Role = "user",
                     Parts = new List<ContentPart>
                     {
-
-                    }
-                },
-                new()
-                {
-                    Role = "user",
-                    Parts = new List<ContentPart>
-                    {
                         new() { Text =$"Input text: {prompt}" }
                     }
                 }
@@ -122,13 +114,12 @@ Format: Plain text output. No labels, no markdown.
                     {
                         new()
                         {
-                            FileData = new FileData()
+                            InlineData = new FileData()
                             {
                                 MimeType = mimeType,
-                                FileUri = base64Image
+                                Data = base64Image
                             }
-                        },
-                        new() { Text = prompt }
+                        }
                     }
                 }
             },
