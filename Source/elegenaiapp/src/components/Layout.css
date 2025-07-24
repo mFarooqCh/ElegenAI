@@ -1,0 +1,30 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #000;
+  color: white;
+  padding: 1rem 2rem;
+}
+
+.nav-brand {
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: var(--color-accent);
+}
+
+.nav-links a {
+  margin-left: 1.5rem;
+  color: white;
+}
+
+.content {
+  padding: 2rem;
+}
+
+.footer {
+  margin-top: auto;
+  text-align: center;
+  padding: 1rem;
+  color: var(--color-muted);
+}

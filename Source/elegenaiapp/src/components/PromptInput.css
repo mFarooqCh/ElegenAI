@@ -1,0 +1,113 @@
+.promptBox {
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 1rem;
+}
+
+.modeToggle {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.modeToggle button {
+  background: none;
+  border: 1px solid var(--color-muted);
+  color: royalblue;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.modeToggle button.active {
+  background-color: var(--color-accent);
+  border-color: var(--color-accent);
+  color: white;
+}
+
+.inputBox {
+  padding: 1rem;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  background-color: #2a2a2a;
+  color: white;
+  resize: vertical;
+}
+
+.fileInput {
+  padding: 0.5rem 1rem;
+  background-color: #2a2a2a;
+  border-radius: 8px;
+  color: white;
+  border: 1px solid #444;
+  width: 100%;
+}
+
+.imageInputWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.imagePreview {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagePreview img {
+  max-width: 100%;
+  max-height: 200px;
+  border-radius: 8px;
+  object-fit: contain;
+  border: 1px solid #444;
+}
+
+.removeBtn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: #ff4c4c;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  font-size: 14px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.submitBtn {
+  background-color: var(--color-accent);
+  color: white;
+  padding: 0.75rem 1rem;
+  font-size: 1.1rem;
+  border-radius: 50%;
+  align-self: flex-end;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.submitBtn:disabled {
+  background-color: gray;
+  cursor: not-allowed;
+}
+
+.output {
+  margin-top: 1rem;
+  background-color: #333;
+  padding: 1rem;
+  border-radius: 8px;
+  color: white;
+}
