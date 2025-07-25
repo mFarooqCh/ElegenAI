@@ -4,8 +4,6 @@ import './PromptInput.css';
 
 const PromptInput = () => {
   const [inputText, setInputText] = useState('');
-  const [imageBase64, setImageBase64] = useState<string | null>(null);
-
   const [imageFile, setImageFile] = useState<File | null>(null);
   const [previewUrl, setPreviewUrl] = useState<string | null>(null);
   const [output, setOutput] = useState<string | null>(null);
