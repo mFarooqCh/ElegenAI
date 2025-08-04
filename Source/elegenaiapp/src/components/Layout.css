@@ -1,3 +1,29 @@
+.app-layout {
+  display: flex;
+  min-height: 100vh;
+  position: relative;
+  overflow-x: hidden;
+  background-color: #1e1e1e;
+}
+
+.desktop-main {
+  margin-left: 220px;
+  padding: 2rem;
+  width: calc(100% - 220px);
+  transition: all 0.3s ease;
+  flex: 1;
+  background-color: #1e1e1e;
+}
+
+.mobile-main {
+  margin-left: 0;
+  padding: 2rem;
+  width: 100%;
+  transition: all 0.3s ease;
+  flex: 1;
+  background-color: #1e1e1e;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -27,4 +53,14 @@
   text-align: center;
   padding: 1rem;
   color: var(--color-muted);
+}
+
+@media (max-width: 768px) {
+  .app-layout {
+    flex-direction: column;
+  }
+  
+  .desktop-main {
+    margin-left: 0;
+  }
 }
